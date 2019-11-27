@@ -1,6 +1,32 @@
-3 redirections
-1 setup the environment
-4 manipulations
-2 basic terminal operations
-2 basic terminal operations
-2 basic terminal operations
+1) Echo a string to a file
+There are many ways to create a file using BASH.
+
+using touch touch newFile.txt only creates.
+using echo echo > newFile.txt only creates.
+using cat cat > newFile.txt creates and can start appending to file.
+using vim vim newFile.txt creates and can start editing the file.
+
+Also the .txt extension is only for convenience and categorization. Some editors view the extension to format the data, but for a txt there's no differnce.
+
+After creating the file, add it to the git repository.
+
+git add newFile.txt
+git commit -m "added new file"
+
+4)cat a file content and redirect the content to another file
+using cat cat > newFile.txt creates and can start appending to file. 
+
+5)redirect a file content to cat command
+git cat-file (-t [--allow-unknown-type]| -s [--allow-unknown-type]| -e | -p | <type> | --textconv | --filters ) [--path=<path>] <object>
+git cat-file (--batch | --batch-check) [ --textconv | --filters ] [--follow-symlinks]
+
+6)count the words in index.html
+wc -w /usr/share/dict/words
+
+7)cat a file content and pipe to wc
+8)sort a file
+9)sort a file and redirect the output to a file
+10)remove the duplicated lines from tasks.txt
+11)print all lines of tasks.txt that contain the word basic
+12)print all lines of tasks.txt that does not contain the word basic
+13)Commit your changes and push (check it on github if you like)
