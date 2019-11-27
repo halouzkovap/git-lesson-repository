@@ -50,6 +50,15 @@ p {
     padding: 2%;
 }
 
+a:hover {
+    color: black;
+}
+
+.hobbo,
+.hobby {
+    margin: auto 5%;
+}
+
 
 /* title */
 
@@ -60,6 +69,18 @@ p {
     color: white;
     height: 200px;
     padding-top: 5%;
+}
+
+.hobby {
+    text-align: center;
+}
+
+.fas {
+    margin-right: 1%;
+}
+
+.bas {
+    margin-left: 2%;
 }
 
 
@@ -98,6 +119,7 @@ td {
 
 .hobbies {
     margin: 5%;
+    padding: 5%;
 }
 
 
