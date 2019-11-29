@@ -43,6 +43,10 @@ a {
     font-family: 'Oswald', sans-serif;
 }
 
+a:hover {
+    color: grey;
+}
+
 .addPost {
     font-weight: bold;
     margin-bottom: 2%;
