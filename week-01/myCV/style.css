@@ -65,7 +65,7 @@ a:hover {
 .whoAmI {
     text-align: center;
     background-image: url(pictures/backgroundtitle.PNG);
-    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     height: 200px;
     padding-top: 5%;
